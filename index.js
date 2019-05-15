@@ -41,5 +41,4 @@ function averageRevenue(drivers) {
      (agg + driver.revenue)
     return agg/drivers.length
   })
-
 }
