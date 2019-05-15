@@ -30,7 +30,7 @@ function driversByName(drivers) {
   return sortedArray;
 }
 
-function totalRevenue(drivers) {
+const totalRevenue = function(drivers) {
   return drivers.reduce(function(agg, driver) {
      return agg + driver.revenue;
   }, 0)
